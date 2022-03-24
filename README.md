@@ -1,8 +1,19 @@
-Source: https://decentsecurity.com/#/malware-web-and-phishing-investigation/
+Original Article: https://decentsecurity.com/#/malware-web-and-phishing-investigation/
 
 **Easily Report Phishing and Malware**
 
-This is how you can strike back at criminals sending phishing spam - by getting their webpages on blacklists. Blocking their sites helps protect other people and helps researchers trying to stop this. Sites can be blocked within 15 minutes of your report, but you may not immediately see it. \[_Page last updated 2020-02-23_\]
+This is how you can strike back at criminals sending phishing spam - by getting their webpages on blacklists. Blocking their sites helps protect other people and helps researchers trying to stop this. Sites can be blocked within 15 minutes of your report, but you may not immediately see it. 
+
+Some phishing pages might also use 0-days exploit to target researchers or increase effectiveness. Maximum precaution should be observed - dedicated analysis machines in a secure environment is necessary.
+
+**Preparation**
+
+1. Create an analyst lab (VM Firewall > Observation VM).
+2. Firewall VM: Create rules, dedicated VLAN to harden and isolate connections from your real network.
+3. Internet <> Firewall VM <Host to Host Adapter> Observation VM.
+4. Observation VM: Apply hardening, updates, tools, bookmarks and applications.
+5. Create a snapshot.
+6. After each analysis, restore to original snapshot.
 
 **Report phishing website:**
 
@@ -16,9 +27,12 @@ Right-click the link in the phishing email, and copy the hyperlink. Do not click
 4.  [VirusTotal](https://www.virustotal.com/#/home/url) - Checks against multiple blacklists
 5.  [any.run](https://app.any.run/): Remotely download and interactively sandbox analyze arbitrary file downloads (run by [@anyrun\_app](https://twitter.com/anyrun_app))
 6.  [DomainTools](https://whois.domaintools.com/) - Registration information
-7.  [MxToolbox](https://mxtoolbox.com/blacklists.aspx) - SMTP/IP Blacklist Check
-8.  [Maltiverse](https://maltiverse.com/collection) - IOC Search
-9.  [URLVoid](https://www.urlvoid.com/) - URL Reputation
+7.  [MxToolbox](https://mxtoolbox.com/blacklists.aspx) - SMTP/IP blacklist check
+8.  [Maltiverse](https://maltiverse.com/collection) - IOC search
+9.  [URLVoid](https://www.urlvoid.com/) - URL reputation
+10. [WhereGoes](https://www.wheregoes.com/) - Redirect tracker
+11. [WannaBrowser](https://www.wannabrowser.net/) - User agent spoofer
+12. [Site-Shot](https://www.site-shot.com/) - Screenshot a website
 
 **Reporting stage**
 
