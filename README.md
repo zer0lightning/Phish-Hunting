@@ -15,6 +15,10 @@ Right-click the link in the phishing email, and copy the hyperlink. Do not click
 3.  [phishcheck.me](http://phishcheck.me/) - Custom phishing detection engine
 4.  [VirusTotal](https://www.virustotal.com/#/home/url) - Checks against multiple blacklists
 5.  [any.run](https://app.any.run/): Remotely download and interactively sandbox analyze arbitrary file downloads (run by [@anyrun\_app](https://twitter.com/anyrun_app))
+6.  [DomainTools](https://whois.domaintools.com/) - Registration information
+7.  [MxToolbox](https://mxtoolbox.com/blacklists.aspx) - SMTP/IP Blacklist Check
+8.  [Maltiverse](https://maltiverse.com/collection) - IOC Search
+9.  [URLVoid](https://www.urlvoid.com/) - URL Reputation
 
 **Reporting stage**
 
