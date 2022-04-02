@@ -10,7 +10,7 @@ Some phishing pages might also use 0-days exploit to target researchers or incre
 
 1. Create an analyst lab (VM Firewall > Observation VM).
 2. Firewall VM: Create rules, dedicated VLAN to harden and isolate connections from your real network.
-3. Internet <> Firewall VM < Host to Host Adapter > Observation VM.
+3. Internet <> Firewall VM + VPN < Host to Host Adapter > Observation VM.
 4. Observation VM: Apply hardening, updates, tools, bookmarks and applications.
 5. Create a snapshot.
 6. After each analysis, restore to original snapshot.
