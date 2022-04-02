@@ -21,7 +21,7 @@ Right-click the link in the phishing email, and copy the hyperlink. Do not click
 
 **Evaluation stage**
 
-1.  [MXToolbox Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx) - Email headers are present on every email you receive via the Internet and can provide valuable diagnostic information like hop delays, anti-spam results and more.
+1.  [MXToolbox Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx) - Email headers can provide valuable diagnostic information like hop delays, anti-spam results and more.
 2.  [urlscan.io](https://urlscan.io/) - Quickly get a screenshot and redirects (run by [@heipi](https://twitter.com/heipei))
 3.  [CheckPhish.ai](https://checkphish.ai/) - Phishing detection engine (run by [RedMarlin](https://www.redmarlin.ai/))
 4.  [phishcheck.me](http://phishcheck.me/) - Custom phishing detection engine
