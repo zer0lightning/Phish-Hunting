@@ -21,19 +21,20 @@ Right-click the link in the phishing email, and copy the hyperlink. Do not click
 
 **Evaluation stage**
 
-1.  [urlscan.io](https://urlscan.io/) - Quickly get a screenshot and redirects (run by [@heipi](https://twitter.com/heipei))
-2.  [CheckPhish.ai](https://checkphish.ai/) - Phishing detection engine (run by [RedMarlin](https://www.redmarlin.ai/))
-3.  [phishcheck.me](http://phishcheck.me/) - Custom phishing detection engine
-4.  [VirusTotal](https://www.virustotal.com/#/home/url) - Checks against multiple blacklists
-5.  [any.run](https://app.any.run/): Remotely download and interactively sandbox analyze arbitrary file downloads (run by [@anyrun\_app](https://twitter.com/anyrun_app))
-6.  [DomainTools](https://whois.domaintools.com/) - Registration information
-7.  [MxToolbox](https://mxtoolbox.com/blacklists.aspx) - SMTP/IP blacklist check
-8.  [Maltiverse](https://maltiverse.com/collection) - IOC search
-9.  [URLVoid](https://www.urlvoid.com/) - URL reputation
-10. [WhereGoes](https://www.wheregoes.com/) - Redirect tracker
-11. [WannaBrowser](https://www.wannabrowser.net/) - User agent spoofer
-12. [Site-Shot](https://www.site-shot.com/) - Screenshot a website
-13. [Browserling](https://www.browserling.com/) - Cross browser testing
+1.  [MXToolbox Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx) - Email headers are present on every email you receive via the Internet and can provide valuable diagnostic information like hop delays, anti-spam results and more.
+2.  [urlscan.io](https://urlscan.io/) - Quickly get a screenshot and redirects (run by [@heipi](https://twitter.com/heipei))
+3.  [CheckPhish.ai](https://checkphish.ai/) - Phishing detection engine (run by [RedMarlin](https://www.redmarlin.ai/))
+4.  [phishcheck.me](http://phishcheck.me/) - Custom phishing detection engine
+5.  [VirusTotal](https://www.virustotal.com/#/home/url) - Checks against multiple blacklists
+6.  [any.run](https://app.any.run/): Remotely download and interactively sandbox analyze arbitrary file downloads (run by [@anyrun\_app](https://twitter.com/anyrun_app))
+7.  [DomainTools](https://whois.domaintools.com/) - Registration information
+8.  [MxToolbox](https://mxtoolbox.com/blacklists.aspx) - SMTP/IP blacklist check
+9.  [Maltiverse](https://maltiverse.com/collection) - IOC search
+10.  [URLVoid](https://www.urlvoid.com/) - URL reputation
+11. [WhereGoes](https://www.wheregoes.com/) - Redirect tracker
+12. [WannaBrowser](https://www.wannabrowser.net/) - User agent spoofer
+13. [Site-Shot](https://www.site-shot.com/) - Screenshot a website
+14. [Browserling](https://www.browserling.com/) - Cross browser testing
 
 **Reporting stage**
 
