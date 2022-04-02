@@ -33,7 +33,7 @@ Right-click the link in the phishing email, and copy the hyperlink. Do not click
 10. [WhereGoes](https://www.wheregoes.com/) - Redirect tracker
 11. [WannaBrowser](https://www.wannabrowser.net/) - User agent spoofer
 12. [Site-Shot](https://www.site-shot.com/) - Screenshot a website
-13. [Browserling] (https://www.browserling.com/) - Cross borwser testing
+13. [Browserling](https://www.browserling.com/) - Cross borwser testing
 
 **Reporting stage**
 
